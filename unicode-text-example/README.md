@@ -10,9 +10,9 @@ provides it as reference to the /v1/images/remix endpoint.
 # Make a budget at api.reve.com/console, and then an API key for that budget.
 export REVE_API_KEY=papi....
 
-python3 makeimage.py --prompt "A swarthy man embraces a semi-clad demure woman, with a mysterious gothic church in the background. Hand drawn airbrushed illustration, movie poster." --output "image.png"
+python3 makeimage.py --prompt "Two muscular men dressed in ripped short sleeves run towards the camera, fear and determination in their faces. Behind them, a giant explosion lights up the night sky. The front of the mens faces is lit by a strong searchlight, whereas the back is outlined against the fireball illuminating the entire scene." --output "image.png"
 
-python3 makeposter.py --title "Ask not for whom the bodice rippeth, because it rippeth for you." --image "image.png" --output "poster.png"
+python3 makeposter.py --title "EXPLOSIONS by Michael Bay" --image "image.png" --output "poster.png"
 ```
 
 This approach has about a 70% success rate, so you may need to generate more
@@ -25,9 +25,11 @@ use the appropriate fonts for those use cases.
 
 ## Initially generated image
 
-![A swarthy man embraces a semi-clad demure woman, with a mysterious gothic church in the background. Hand drawn airbrushed illustration.](image.png)
+![Two muscular men dressed in ripped short sleeves run towards the camera, fear and determination in their faces. Behind them, a giant explosion lights up the night sky.](image.png)
 
-![Ask not for whom the bodice rippeth, because it rippeth for you.](poster.png)
+## Composed Poster
+
+![EXPLOSIONS by Michael Bay](poster.png)
 
 ## Licenses
 
