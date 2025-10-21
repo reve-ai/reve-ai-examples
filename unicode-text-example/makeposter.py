@@ -66,7 +66,7 @@ def main():
     }
 
     # Set up request payload with the specified prompt
-    prompt = f'Create a movie poster by preserving the subject, scenery, style, and subject of <img>1</img> but add the title "{args.title}" as illustrated in <img>2</img>, changed to an appropriate font.'
+    prompt = f'Create a cinematic dramatic movie poster by preserving the subject, scenery, style, and atmosphere of <img>1</img> but add the title "{args.title}" in dynamic text across the image as illustrated in <img>2</img>. Changed the text to an appropriate font. Make the main words fill the width of the image, and put the rest of the text below it.'
 
     payload = {
         "prompt": prompt,
